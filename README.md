@@ -11,7 +11,7 @@ The repositories below are self-directed research studies on public data. Each R
 - [eu-gas-storage-valuation](https://github.com/michaelserikov/eu-gas-storage-valuation): intrinsic and extrinsic value of seasonal gas storage (LP, least-squares Monte Carlo), German storage fundamentals
 - [energy-book-risk](https://github.com/michaelserikov/energy-book-risk): marks, P&L attribution, limits and VaR/ES backtests of an illustrative TTF book through the 2021-2023 crisis
 - [nordic-hydro-unit-commitment](https://github.com/michaelserikov/nordic-hydro-unit-commitment): unit commitment of the German thermal fleet and water values of Norwegian hydropower (SDP)
-- [de-price-forecast-service](https://github.com/michaelserikov/de-price-forecast-service): day-ahead price forecasts as a service (PyTorch, FastAPI, Docker, CI, drift monitoring)
+- [de-price-forecast-service](https://github.com/michaelserikov/de-price-forecast-service): day-ahead price forecasts as a service (PyTorch, FastAPI, Docker, CI, drift monitoring); live [page](https://huggingface.co/spaces/michaelserikov/de-price-forecast) and [API](https://de-price-forecast.onrender.com/)
 
 #### Power systems, adequacy and weather
 - **[de-power-adequacy](https://github.com/michaelserikov/de-power-adequacy)** (flagship): resource adequacy of the German power system across 35 weather years (LOLE, EENS, ELCC) and under CMIP6 climate change factors
