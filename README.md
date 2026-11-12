@@ -19,17 +19,19 @@ The repositories below are self-directed research studies on public data. Each R
 - [de-weather-to-power](https://github.com/michaelserikov/de-weather-to-power): day-ahead wind and solar generation forecasts from ICON, ECMWF and AIFS, priced at imbalance prices
 - [de-wind-solar-nowcast](https://github.com/michaelserikov/de-wind-solar-nowcast): intraday nowcasts 15 min to 6 h ahead from live generation and station data
 - [de-feeder-storage-risk](https://github.com/michaelserikov/de-feeder-storage-risk): battery or reinforcement on a medium-voltage feeder, two-stage planning with EVPI by uncertainty source
+- [de-site-energy-management](https://github.com/michaelserikov/de-site-energy-management): forecast-based energy management of an industrial site (load, cooling and PV forecasts, MPC with a demand charge)
 - [sweden-biomass-times-mini](https://github.com/michaelserikov/sweden-biomass-times-mini): TIMES-inspired energy system model of Sweden 2025-2050, forest biomass allocation (GAMS)
 - [messageix-westeros-residual-emissions](https://github.com/michaelserikov/messageix-westeros-residual-emissions): scale-up rates and carbon removal in the MESSAGEix Westeros teaching model
 - [tyndp-exit-tracing](https://github.com/michaelserikov/tyndp-exit-tracing): what happens to German transmission investments after they leave the TYNDP
 
 #### Climate and catastrophe risk
 - **[de-storm-grid-risk](https://github.com/michaelserikov/de-storm-grid-risk)** (flagship): windstorms on the German transmission grid, correlated line failures, DC power flow load shedding and the value of information for reinforcement (stochastic MILP, Benders)
+- [gm-transit-climate-risk](https://github.com/michaelserikov/gm-transit-climate-risk): surface water floods and heat on the Greater Manchester bus and tram network, mode choice logit and adaptation sites under climate uncertainty (stochastic MILP, minimax regret, EVPI)
 - [de-windstorm-risk](https://github.com/michaelserikov/de-windstorm-risk): German windstorm loss index, extreme value statistics, CLIMADA calibration, parametric trigger basis risk
 - [climate-damage-panel](https://github.com/michaelserikov/climate-damage-panel): regional damage function for weather extremes (fixed effects panel, double machine learning)
 
 #### Credit and insurance
-- **[credit-pd-report](https://github.com/michaelserikov/credit-pd-report)** (flagship): PD scorecard against gradient boosting, rating grades and validation, SQL, Excel/VBA and Power BI reporting, mortgage PD and LGD through the 2007-2010 crisis
+- **[credit-pd-report](https://github.com/michaelserikov/credit-pd-report)** (flagship): PD scorecard against gradient boosting, rating grades and validation, SQL, Excel/VBA and Power BI reporting, mortgage PD and LGD through the 2007-2010 crisis, IFRS 9 expected credit loss
 - [motor-pricing-glm](https://github.com/michaelserikov/motor-pricing-glm): motor liability pricing, GLM against gradient boosting, large claims and premium risk under reinsurance
 
 **Tools:** Python (pandas, NumPy, SciPy, scikit-learn, PyTorch), GAMS, Pyomo, PyPSA, HiGHS, SQL (DuckDB, PostgreSQL), Excel/VBA, Power BI, Git and GitHub Actions
